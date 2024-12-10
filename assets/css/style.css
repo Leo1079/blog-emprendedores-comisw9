@@ -1,3 +1,5 @@
+/* Header */
+
 .login-container {
   max-width: 400px;
   margin-top: 5rem;
@@ -15,10 +17,38 @@
   display: inline-block;
 }
 
-.navbar-footer {
-  background-color: #a5d6a7;
-}
+/* Main */
+
+/*.corousel-inner img {
+  width: 200px;
+}*/
+/*.carousel-inner img {
+  object-fit: cover;
+  }*/
+/*.container-fluid {
+    height: 90%;
+    width: 100%;
+    }*/
+
+/*.carousel-inner img {
+      height: 100%;
+      }*/
+
+/* INICIO PRUEBA DE COLORES */
 
 .main-color {
   background-color: #e0e0e0;
 }
+
+.categorias button {
+  background-color: #43a047;
+
+  &:hover {
+    background-color: #2f6e32;
+  }
+}
+
+.navbar-footer {
+  background-color: #92ad94;
+}
+/* FIN PRUEBA DE COLORES */
