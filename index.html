@@ -33,6 +33,13 @@
     <header class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="./img-logo/inspire-inspiration-positivity-word-concept.jpg"
+            alt="Logo header"
+            class="logo-header"
+            width="250px"
+            height="150px"
+          />
           <div class="border p-2 me-2">LOGO</div>
           <p class="mb-0 d-none d-md-block">Visión emprendedora</p>
         </a>
@@ -188,7 +195,6 @@
                 <div class="text-center mt-3">
                   <p>
                     ¿Ya tienes una cuenta?
-
                     <a href="login.html" class="text-decoration-none"
                       >Iniciar Sesión</a
                     >
@@ -203,6 +209,242 @@
         </div>
       </div>
     </header>
+
+    <!-- Main -->
+
+    <main class="container-fluid">
+      <!-- se incorpora carousel copiado de GH, por conflicto -->
+      <section>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators button">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Diapositiva 1"
+              style="background-color: rgb(65, 7, 239)"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Diapositiva 2"
+              style="background-color: rgb(65, 7, 239)"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Diapositiva 3"
+              style="background-color: rgb(65, 7, 239)"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Diapositiva 4"
+              style="background-color: rgb(65, 7, 239)"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Diapositiva 5"
+              style="background-color: rgb(65, 7, 239)"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img
+                src="./img carousel/marketing-personal-para-que-sirve-1.png"
+                class="d-block w-100"
+                width="1280"
+                height="600"
+                style="object-fit: cover"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./img carousel/close-up-hand-with-digital-pen.jpg"
+                class="d-block w-100"
+                width="1280"
+                height="600"
+                style="object-fit: cover"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./img carousel/man-works-with-sound-laptop-early-morning.jpg"
+                class="d-block w-100"
+                width="1280"
+                height="600"
+                style="object-fit: cover; object-position: top"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./img carousel/OIP.jpg"
+                class="d-block w-100"
+                width="1280"
+                height="600"
+                style="object-fit: cover"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./img carousel/work-team-digital-art.jpg"
+                class="d-block w-100"
+                width="1280"
+                height="600"
+                style="object-fit: cover; object-position: top"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <div class="row">
+        <!-- INICIO COLUMNA FORM, BTN Y PUBL. -->
+
+        <div class="col-lg-4 border border-secondary">
+          <div>
+            <!-- FORMULARIO DE BUSQUEDA -->
+            <form class="d-flex m-4" role="search">
+              <input
+                class="form-control me-2 rounded-pill"
+                type="search"
+                placeholder="Buscar..."
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success rounded-pill"
+                type="submit"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                  />
+                </svg>
+              </button>
+            </form>
+            <!-- BOTONES CATEGORIAS -->
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary">Categoría 1</button>
+              <button class="btn btn-primary">Categoría 2</button>
+              <button class="btn btn-primary">Categoría 3</button>
+            </div>
+            <!-- PUBLICIDAD -->
+            <div class="publicidad">
+              <h3 class="text-center p-3">Publicidad</h3>
+              <h4 class="text-center">img acá abajo</h4>
+              <img src="" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- FIN COLUMNA FORM, BTN Y PUBL. -->
+
+        <!-- INICIO COLUMNA CARDS -->
+        <!-- FIN COLUMNA CARDS -->
+      </div>
+    </main>
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Columna 1: Logo -->
+          <div class="col-md-4">
+            <a href="../index.html"></a>
+            <img
+              src="./img-logo/inspire-inspiration-positivity-word-concept.jpg"
+              alt="Logo Footer"
+              class="logo-footer"
+              width="250px"
+              height="150px"
+            />
+          </div>
+
+          <!-- Columna 2: Redes sociales -->
+          <div class="col-md-4">
+            <h5>Síguenos</h5>
+            <a href="#" class="text-light me-2"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" class="text-light me-2"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+          </div>
+
+          <!-- Columna 3: Información de contacto -->
+          <div class="col-md-4">
+            <h5>Contáctanos</h5>
+            <ul>
+              <li>Teléfono: +54 (555) 1234567</li>
+              <li>Email: emprendedores@empresa.com</li>
+            </ul>
+            <!-- Mapa de ubicación -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1060679496168!2d-65.20974192736935!3d-26.836578490021736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sit!4v1731958367743!5m2!1ses-419!2sit"
+              width="150"
+              height="100"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <!-- Columna 4: Enlaces Legales -->
+          <div class="col-md-4">
+            <h5>Legales</h5>
+            <a href="#" class="text-light d-block">Política de Privacidad</a>
+            <a href="#" class="text-light d-block">Términos de Servicio</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pie de página con derechos de autor -->
+      <div class="footer-bottom text-center mt-4">
+        <p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    >>>>>>> 0f788b0c26fb8a520cfcd03bec9f0092097f2ef6
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
