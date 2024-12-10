@@ -1,16 +1,54 @@
+/* Header */
+
 .login-container {
-    max-width: 400px;
-    margin-top: 5rem;
+  max-width: 400px;
+  margin-top: 5rem;
 }
 
 .logo-container {
-    text-align: center;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .logo {
-    font-size: 2rem;
-    padding: 0.5rem 1rem;
-    border: 2px solid #000;
-    display: inline-block;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #000;
+  display: inline-block;
 }
+
+/* Main */
+
+/*.corousel-inner img {
+  width: 200px;
+}*/
+/*.carousel-inner img {
+  object-fit: cover;
+  }*/
+/*.container-fluid {
+    height: 90%;
+    width: 100%;
+    }*/
+
+/*.carousel-inner img {
+      height: 100%;
+      }*/
+
+/* INICIO PRUEBA DE COLORES */
+
+.main-color {
+  background-color: #e0e0e0;
+}
+
+.categorias button {
+  background-color: #43a047;
+
+  &:hover {
+    background-color: #2f6e32;
+  }
+}
+
+.navbar-footer {
+  background-color: #92ad94;
+}
+/* FIN PRUEBA DE COLORES */

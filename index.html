@@ -27,14 +27,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
     />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body style="background-color: rgb(59, 53, 53)">
+  <body>
     <!-- Header -->
-    <header class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <header
+      class="navbar navbar-expand-lg navbar-light border-bottom navbar-footer"
+    >
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
           <img
-            src="./img-logo/inspire-inspiration-positivity-word-concept.jpg"
+            src="./assets/img/inspire-inspiration-positivity-word-concept.jpg"
             alt="Logo header"
             class="logo-header"
             width="250px"
@@ -212,7 +215,7 @@
 
     <!-- Main -->
 
-    <main class="container-fluid">
+    <main class="container-fluid main-color">
       <!-- se incorpora carousel copiado de GH, por conflicto -->
       <section>
         <div
@@ -262,7 +265,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="2000">
               <img
-                src="./img carousel/marketing-personal-para-que-sirve-1.png"
+                src="./assets/img/img carousel/marketing-personal-para-que-sirve-1.png"
                 class="d-block w-100"
                 width="1280"
                 height="600"
@@ -272,7 +275,7 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="./img carousel/close-up-hand-with-digital-pen.jpg"
+                src="./assets/img/img carousel/close-up-hand-with-digital-pen.jpg"
                 class="d-block w-100"
                 width="1280"
                 height="600"
@@ -282,7 +285,7 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="./img carousel/man-works-with-sound-laptop-early-morning.jpg"
+                src="./assets/img/img carousel/man-works-with-sound-laptop-early-morning.jpg"
                 class="d-block w-100"
                 width="1280"
                 height="600"
@@ -292,7 +295,7 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="./img carousel/OIP.jpg"
+                src="./assets/img/img carousel/OIP.jpg"
                 class="d-block w-100"
                 width="1280"
                 height="600"
@@ -302,7 +305,7 @@
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="./img carousel/work-team-digital-art.jpg"
+                src="./assets/img/img carousel/work-team-digital-art.jpg"
                 class="d-block w-100"
                 width="1280"
                 height="600"
@@ -332,6 +335,8 @@
         </div>
       </section>
 
+      <!-- Columnas 1 y 2 -->
+
       <div class="row">
         <!-- INICIO COLUMNA FORM, BTN Y PUBL. -->
 
@@ -346,16 +351,16 @@
                 aria-label="Search"
               />
               <button
-                class="btn btn-outline-success rounded-pill"
+                class="btn btn-outline-success rounded-circle"
                 type="submit"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
-                  height="16"
+                  height="23"
                   fill="currentColor"
                   class="bi bi-search"
-                  viewBox="0 0 16 16"
+                  viewBox="0 2 16 16"
                 >
                   <path
                     d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
@@ -364,16 +369,17 @@
               </button>
             </form>
             <!-- BOTONES CATEGORIAS -->
-            <div class="d-grid gap-2">
-              <button class="btn btn-primary">Categoría 1</button>
-              <button class="btn btn-primary">Categoría 2</button>
-              <button class="btn btn-primary">Categoría 3</button>
+            <div class="d-grid gap-2 categorias">
+              <button class="btn btn-primary">
+                Finanzas para emprendedores
+              </button>
+              <button class="btn btn-primary">Innovación y tendencias</button>
+              <button class="btn btn-primary">Marketing digital</button>
             </div>
             <!-- PUBLICIDAD -->
-            <div class="publicidad">
+            <div class="mb-3">
               <h3 class="text-center p-3">Publicidad</h3>
-              <h4 class="text-center">img acá abajo</h4>
-              <img src="" alt="" />
+              <img class="img-fluid" src="" alt="" />
             </div>
           </div>
         </div>
@@ -383,14 +389,17 @@
         <!-- FIN COLUMNA CARDS -->
       </div>
     </main>
-    <footer class="bg-dark text-light py-4">
+
+    <!-- Footer -->
+
+    <footer class="text-light py-4 navbar-footer">
       <div class="container">
         <div class="row">
           <!-- Columna 1: Logo -->
           <div class="col-md-4">
             <a href="../index.html"></a>
             <img
-              src="./img-logo/inspire-inspiration-positivity-word-concept.jpg"
+              src="./assets/img/inspire-inspiration-positivity-word-concept.jpg"
               alt="Logo Footer"
               class="logo-footer"
               width="250px"
@@ -444,7 +453,6 @@
       </div>
     </footer>
 
-    >>>>>>> 0f788b0c26fb8a520cfcd03bec9f0092097f2ef6
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
