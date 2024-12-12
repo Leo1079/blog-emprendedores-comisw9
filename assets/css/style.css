@@ -1,3 +1,11 @@
+:root {
+  --main-color: #e0e0e0;
+  --primary-button: #43a047;
+  --primary-button-hover: #2f6e32;
+  --navbar-footer: #92ad94;
+  --card-bg-color: #;
+}
+
 /* Header */
 
 .login-container {
@@ -37,18 +45,23 @@
 /* INICIO PRUEBA DE COLORES */
 
 .main-color {
-  background-color: #e0e0e0;
+  background-color: var(--main-color);
 }
 
 .categorias button {
-  background-color: #43a047;
+  background-color: var(--primary-button);
+}
 
-  &:hover {
-    background-color: #2f6e32;
-  }
+.categorias button:hover {
+  background-color: var(--primary-button-hover);
+}
+
+.single-card {
+  background-color: var(--card-bg-color);
 }
 
 .navbar-footer {
-  background-color: #92ad94;
+  background-color: var(--navbar-footer);
 }
+
 /* FIN PRUEBA DE COLORES */
