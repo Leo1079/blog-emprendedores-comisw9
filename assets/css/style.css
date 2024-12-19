@@ -47,14 +47,6 @@
   background-color: var(--main-color);
 }
 
-.categorias button {
-  background-color: var(--primary-button);
-}
-
-.categorias button:hover {
-  background-color: var(--primary-button-hover);
-}
-
 .single-card {
   background-color: var(--card-bg-color);
 }
@@ -64,3 +56,48 @@
 }
 
 /* FIN PRUEBA DE COLORES */
+
+/* INICIO COLUMNA 2 */
+
+/* FORMULARIO */
+
+.btn-search {
+  color: var(--primary-button);
+}
+.btn-search:hover {
+  color: var(--main-color);
+  background-color: var(--primary-button-hover);
+}
+.form-shadow {
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+}
+
+/* CATEGORIAS */
+
+.categorias button {
+  background-color: var(--primary-button);
+  transition: transform 0.3s ease-in-out;
+}
+.categorias button:hover {
+  background-color: var(--primary-button-hover);
+  transform: scale(1.1);
+}
+.categorias button {
+  width: 50%;
+}
+
+/* ANUNCIO */
+
+.publicidad button {
+  background-color: var(--primary-button);
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 50%;
+  left: 50%;
+  top: 87%;
+}
+.publicidad button:hover {
+  background-color: var(--primary-button-hover);
+}
+
+/* FIN COLUMNA 2 */
