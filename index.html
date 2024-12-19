@@ -348,22 +348,22 @@
               <!-- FORMULARIO DE BUSQUEDA -->
               <form class="d-flex m-4" role="search">
                 <input
-                  class="form-control me-2 rounded-pill"
+                  class="form-control me-2 rounded-pill form-shadow"
                   type="search"
                   placeholder="Buscar..."
                   aria-label="Search"
                 />
                 <button
-                  class="btn btn-outline-success rounded-circle"
+                  class="btn btn-outline-success rounded-circle btn-search"
                   type="submit"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="23"
+                    width="20"
+                    height="24"
                     fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 2 16 16"
+                    class="bi bi-search svg-color"
+                    viewBox="0 1 15 15"
                   >
                     <path
                       d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
@@ -372,7 +372,9 @@
                 </button>
               </form>
               <!-- BOTONES CATEGORIAS -->
-              <div class="d-grid gap-2 categorias">
+              <div
+                class="gap-2 d-flex align-items-center flex-column categorias"
+              >
                 <button class="btn btn-primary">
                   Finanzas para emprendedores
                 </button>
@@ -380,14 +382,18 @@
                 <button class="btn btn-primary">Marketing digital</button>
               </div>
               <!-- PUBLICIDAD -->
-              <div class="mb-3">
-                <h3 class="text-center p-3">Publicidad</h3>
+              <div class="pb-4 pt-4 publicidad position-relative">
                 <a href=""
                   ><img
                     class="img-fluid"
                     src="./assets/img/publicidad.png"
                     alt=""
                 /></a>
+                <button
+                  class="btn btn-primary position-absolute translate-middle"
+                >
+                  Inscríbete al curso
+                </button>
               </div>
             </div>
           </div>
