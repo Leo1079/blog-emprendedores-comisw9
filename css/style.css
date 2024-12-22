@@ -1,12 +1,19 @@
+/* Variables de colores */
 :root {
   --main-color: #e0e0e0;
   --primary-button: #43a047;
   --primary-button-hover: #2f6e32;
   --navbar-footer: #92ad94;
+
+  /* Nuevas variables para las tarjetas */
+  --card-bg-color: #33691e;
+  --card-text-color: #ffffff;
+  --card-border-color: #81c784;
+  --card-hover-bg: #1b5e20;
+  --card-hover-text: #a5d6a7;
 }
 
 /* Header */
-
 .login-container {
   max-width: 400px;
   margin-top: 5rem;
@@ -23,71 +30,46 @@
   border: 2px solid #000;
   display: inline-block;
 }
+
 /* Main */
-
-/*.corousel-inner img {
-  width: 200px;
-}*/
-/*.carousel-inner img {
-  object-fit: cover;
-  }*/
-/*.container-fluid {
-    height: 90%;
-    width: 100%;
-    }*/
-
-/*.carousel-inner img {
-      height: 100%;
-      }*/
-
-/* INICIO PRUEBA DE COLORES */
-
 .main-color {
   background-color: var(--main-color);
-}
-
-.single-card {
-  background-color: var(--card-bg-color);
 }
 
 .navbar-footer {
   background-color: var(--navbar-footer);
 }
 
-/* FIN PRUEBA DE COLORES */
-
-/* INICIO COLUMNA 2 */
-
 /* FORMULARIO */
-
 .btn-search {
   color: var(--primary-button);
 }
+
 .btn-search:hover {
   color: var(--main-color);
   background-color: var(--primary-button-hover);
 }
+
 .form-shadow {
   filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
 }
 
 /* CATEGORIAS */
-
 .categorias button {
   background-color: var(--primary-button);
   transition: transform 0.3s ease-in-out;
 }
+
 .categorias button:hover {
   background-color: var(--primary-button-hover);
   transform: scale(1.1);
 }
+
 .categorias button {
   width: 50%;
 }
 
 /* ANUNCIO */
-/* PRUEBA */
-
 .publicidad button {
   background-color: var(--primary-button);
   padding: 10px;
@@ -96,8 +78,32 @@
   left: 50%;
   top: 87%;
 }
+
 .publicidad button:hover {
   background-color: var(--primary-button-hover);
 }
 
-/* FIN COLUMNA 2 */
+/* Columa Tarjetas */
+
+.single-card {
+  background-color: var(--card-bg-color);
+  color: var(--card-text-color);
+  border: 2px solid var(--card-border-color);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.single-card:hover {
+  background-color: var(--card-hover-bg);
+  color: var(--card-hover-text);
+  transform: scale(1.05);
+  cursor: pointer;
+  border-color: rgba(255, 255, 255, 0.8); /* Cambia el borde al hover */
+}
