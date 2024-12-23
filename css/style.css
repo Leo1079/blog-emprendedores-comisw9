@@ -107,3 +107,40 @@
   cursor: pointer;
   border-color: rgba(255, 255, 255, 0.8); /* Cambia el borde al hover */
 }
+
+/* INICIO ESTILOS PAGINA CARD1, CARD2 Y CARD3 */
+.form {
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.486);
+}
+.form-control:focus {
+  border-color: #43a047;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+.form-check-input:focus {
+  border-color: #43a047;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+.form-check-input:checked {
+  background-color: #43a047;
+  border-color: rgba(76, 175, 80, 0.5);
+}
+.btn-custom {
+  background-color: #43a047;
+  color: white;
+  &:hover {
+    background-color: #2f6e32;
+    color: white;
+  }
+}
+.btn-custom:focus {
+  background-color: #43a047;
+}
+
+/* COMENTARIOS */
+
+.comentarios {
+  border: 1px solid black;
+}
+/* FIN ESTILOS PAGINA CARD1, CARD2 Y CARD3 */
