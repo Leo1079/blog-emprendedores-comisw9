@@ -72,7 +72,7 @@
 /* ANUNCIO */
 .publicidad button {
   background-color: var(--primary-button);
-  padding: 10px;
+  padding: 7px;
   font-size: 1.2rem;
   width: 50%;
   left: 50%;
