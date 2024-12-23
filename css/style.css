@@ -77,7 +77,6 @@
   }
 }
 
-
 .navbar-footer {
   background-color: var(--navbar-footer);
 }
@@ -182,7 +181,11 @@
 
 /* COMENTARIOS */
 
-.comentarios {
-  border: 1px solid black;
+.comentarios img {
+  height: 64px;
+  width: 64px;
+}
+.col-img img {
+  width: 60%;
 }
 /* FIN ESTILOS PAGINA CARD1, CARD2 Y CARD3 */
