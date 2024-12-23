@@ -144,3 +144,31 @@
   border: 1px solid black;
 }
 /* FIN ESTILOS PAGINA CARD1, CARD2 Y CARD3 */
+
+/* Pagina 404 */
+
+.error-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.error-message {
+  font-size: 1.1rem;
+  color: var(--main-color);
+}
+
+/* Para dispositivos móviles */
+@media (max-width: 768px) {
+  .error-title {
+    font-size: 1.8rem;
+  }
+  .error-message {
+    font-size: 1rem;
+  }
+  .error-page a.btn {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 15px 0;
+  }
+}
