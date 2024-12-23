@@ -34,6 +34,7 @@
     />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
+
   <body>
     <!-- Header -->
     <header
@@ -49,7 +50,7 @@
             height="150px"
           />
           <!-- <div class="border p-2 me-2">LOGO</div>
-          <p class="mb-0 d-none d-md-block">Visión emprendedora</p>-->
+          <p class="mb-0 d-none d-md-block">Visión emprendedora</p> -->
         </a>
         <button
           class="navbar-toggler"
@@ -64,15 +65,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="mx-auto navbar-nav">
-            <a class="nav-link text-light" href="../index.html"
-              >Construyendo tu Legado</a
+            <a class="nav-link active" href="../index.html"
+              >Construye Tu Legado</a
             >
-            <a class="nav-link text-light" href="../paginas/contacto.html"
-              >Contacto</a
-            >
-            <a
-              class="nav-link text-light active"
-              href="../paginas/sobre_nosotros.html"
+            <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+            <a class="nav-link" href="../paginas/sobre_nosotros.html"
               >Sobre nosotros</a
             >
           </div>
@@ -221,87 +218,223 @@
         </div>
       </div>
     </header>
-    <main>
-      <!-- va el main -->
 
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
-            <img
-              src="../assets/img/OIP AVA 1.jpg"
-              class="card-img-top"
-              style="width: 270px; height: 270px"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">YO soy NAHUEL</h5>
-              <p class="card-text">
-                Experto en apagar incendios y solucionar conflictos... !!! Pero
-                paraaaaa.. un dia de estos llego.!.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <br />
+    <!-- INICIO MAIN -->
 
-            <img
-              src="../assets/img/OIP AVA 2.jpg"
-              class="card-img-top"
-              style="width: 230px; height: 250px"
-              alt="..."
-            />
-            <br />
-            <div class="card-body">
-              <h5 class="card-title">AQUI GABRIEL</h5>
-              <p class="card-text">LLAMAME que estoy contá con migo..!!</p>
-            </div>
+    <main class="main pb-4">
+      <!-- INICIO DIV CONTENEDORA IMG Y DESCRIPCION -->
+
+      <div class="container-fluid">
+        <div class="row text-center border">
+          <h1 class="p-3">Titulo de la card</h1>
+          <!-- IMAGEN -->
+
+          <div class="col-sm-12 col-md-5 col-lg-5 border">
+            <img class="p-3" src="https://via.placeholder.com/550x600" alt="" />
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img
-              src="../assets/img/AVA 3.jpg"
-              class="card-img-top"
-              style="width: 200px; height: 240px"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">LEO Presente</h5>
-              <p class="card-text">Leito.. yo me doy una vuelta..</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img
-              src="../assets/img/OIP AVA 4.jpg"
-              class="card-img-top"
-              style="width: 230px; height: 250px"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">CLAUDIO ...!!</h5>
-              <p class="card-text">
-                Está muy seguido, parece que esta bastante al pedo..!!
-              </p>
-            </div>
+
+          <!-- TEXTO -->
+
+          <div class="col-sm-12 col-md-7 col-lg-7 border">
+            <h3 class="p-3">Descripción</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              tempore veniam excepturi cum minima quibusdam itaque, facilis
+              recusandae repudiandae nostrum, distinctio harum? Rem repellat
+              impedit accusantium quis dolorem nostrum et? Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Laboriosam nulla ipsa cumque
+              est magni, voluptate blanditiis doloribus, eveniet atque accusamus
+              ipsum exercitationem vero sunt a excepturi reprehenderit
+              laudantium ex omnis. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Veniam, consectetur quidem. Eum dolore cum
+              explicabo deserunt beatae dolorum consequuntur officia, facilis
+              nihil delectus minima quo laborum officiis harum voluptas
+              provident. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Soluta iusto cum voluptatibus, qui neque excepturi similique
+              dolorum, quibusdam, possimus explicabo asperiores voluptate vitae
+              perspiciatis aut accusantium optio id vero at. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Autem dicta vero aperiam,
+              excepturi facilis sit neque, minus id voluptates cum, numquam
+              maxime provident nam quas doloremque! Debitis accusamus tenetur
+              quaerat.
+            </p>
           </div>
         </div>
       </div>
+
+      <!-- FIN DIV CONTENEDORA IMG Y DESCRIPCION -->
+
+      <!-- INICIO FORMULARIO -->
+      <section class="container-fluid p-4 border">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-6">
+            <form class="form d-flex flex-column p-3">
+              <div class="d-flex flex-wrap gap-1">
+                <!-- Div Nombre -->
+
+                <div class="mb-3 flex-grow-1">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control rounded-pill"
+                    id="nombre"
+                    required
+                  />
+                </div>
+
+                <!-- Div Correo -->
+
+                <div class="mb-3 flex-grow-1">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Correo</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control rounded-pill"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                </div>
+              </div>
+
+              <!-- Div check -->
+
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Recuérdame</label
+                >
+              </div>
+
+              <!-- Div comentarios -->
+
+              <div class="mb-3 form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                  required
+                ></textarea>
+                <label for="floatingTextarea2">Deje su comentario...</label>
+              </div>
+
+              <button type="submit" class="btn btn-custom">Publicar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- FIN FORMULARIO -->
+
+      <!-- INICIO COMENTARIOS -->
+
+      <section class="container mt-4 comentarios">
+        <h2 class="mb-4 mt-4 text-center">Comentarios de usuarios</h2>
+
+        <div class="d-flex align-items-start mb-3 border-bottom pb-3">
+          <img
+            src="https://via.placeholder.com/64"
+            alt="Usuario"
+            class="rounded-circle me-3"
+          />
+          <div>
+            <h5 class="mb-1">Juan Pérez</h5>
+            <p class="text-muted mb-2">Publicado el 20 de diciembre de 2024</p>
+            <p class="mb-0">
+              Me encantó esta página, tiene un diseño muy limpio y fácil de
+              usar. ¡Buen trabajo!
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-start mb-3 border-bottom pb-3">
+          <img
+            src="https://via.placeholder.com/64"
+            alt="Usuario"
+            class="rounded-circle me-3"
+          />
+          <div>
+            <h5 class="mb-1">María López</h5>
+            <p class="text-muted mb-2">Publicado el 18 de diciembre de 2024</p>
+            <p class="mb-0">
+              El contenido es muy informativo, pero creo que podrían mejorar la
+              velocidad de carga.
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-start mb-3 border-bottom pb-3">
+          <img
+            src="https://via.placeholder.com/64"
+            alt="Usuario"
+            class="rounded-circle me-3"
+          />
+          <div>
+            <h5 class="mb-1">Carlos Rodríguez</h5>
+            <p class="text-muted mb-2">Publicado el 15 de diciembre de 2024</p>
+            <p class="mb-0">
+              Un sitio web fantástico. Definitivamente lo recomendaré a mis
+              amigos.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex align-items-start mb-3 border-bottom pb-3">
+          <img
+            src="https://via.placeholder.com/64"
+            alt="Usuario"
+            class="rounded-circle me-3"
+          />
+          <div>
+            <h5 class="mb-1">Ana Gómez</h5>
+            <p class="text-muted mb-2">Publicado el 12 de diciembre de 2024</p>
+            <p class="mb-0">
+              La experiencia de navegación es excelente. Me encanta cómo
+              organizan el contenido.
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-start mb-3 border-bottom pb-3">
+          <img
+            src="https://via.placeholder.com/64"
+            alt="Usuario"
+            class="rounded-circle me-3"
+          />
+          <div>
+            <h5 class="mb-1">Luis Fernández</h5>
+            <p class="text-muted mb-2">Publicado el 10 de diciembre de 2024</p>
+            <p class="mb-0">
+              Gran diseño, aunque tuve problemas para acceder desde mi
+              dispositivo móvil.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FIN COMENTARIOS -->
     </main>
+
+    <!-- FIN MAIN -->
+
+    <!-- Footer -->
     <footer class="text-light navbar-footer container-fluid pt-5 p-3">
       <section class="row logo-principal justify-content-between">
         <!-- columna 1 logo-->
-        <div class="col-sm-12 col-md-6 col-lg-3" href="./index.html">
-          <img
-            src="../assets/img/logo principal.png"
-            alt="Logo Footer"
-            class="logo-footer"
-            width="250px"
-            height="150px"
-          />
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="../index.html">
+            <img
+              src="../assets/img/logo principal.png"
+              alt="Logo Footer"
+              class="logo-footer"
+              width="250px"
+              height="150px"
+            />
+          </a>
         </div>
         <!-- Columna 2: Redes sociales -->
         <div class="col-sm-12 col-md-6 col-lg-3">
@@ -365,67 +498,6 @@
         </div>
       </section>
     </footer>
-    <!-- <footer class="bg-dark text-light py-4">
-      <div class="container">
-        <div class="row"> -->
-    <!-- Columna 1: Logo -->
-    <!-- <div class="col-md-4">
-            <a href="../index.html"></a>
-            <img
-              src="../img-logo/inspire-inspiration-positivity-word-concept.jpg"
-              alt="Logo Footer"
-              class="logo-footer"
-              width="250px"
-              height="150px"
-            />
-          </div> -->
-
-    <!-- Columna 2: Redes sociales -->
-    <!-- <div class="col-md-4">
-            <h5>Síguenos</h5>
-            <a href="#" class="text-light me-2"
-              ><i class="bi bi-facebook"></i
-            ></a>
-            <a href="#" class="text-light me-2"
-              ><i class="bi bi-instagram"></i
-            ></a>
-            <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
-          </div> -->
-
-    <!-- Columna 3: Información de contacto -->
-    <!-- <div class="col-md-4">
-            <h5>Contáctanos</h5>
-            <ul>
-              <li>Teléfono: +54 (555) 1234567</li>
-              <li>Email: emprendedores@empresa.com</li>
-            </ul> -->
-    <!-- Mapa de ubicación -->
-    <!-- <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1060679496168!2d-65.20974192736935!3d-26.836578490021736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sit!4v1731958367743!5m2!1ses-419!2sit"
-              width="150"
-              height="100"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div> -->
-
-    <!-- Columna 4: Enlaces Legales -->
-    <!-- <div class="col-md-4">
-            <h5>Legales</h5>
-            <a href="#" class="text-light d-block">Política de Privacidad</a>
-            <a href="#" class="text-light d-block">Términos de Servicio</a>
-          </div>
-        </div>
-      </div> -->
-
-    <!-- Pie de página con derechos de autor -->
-    <!-- <div class="footer-bottom text-center mt-4">
-        <p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
-      </div>
-    </footer> -->
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
